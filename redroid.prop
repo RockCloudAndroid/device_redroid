@@ -1,7 +1,6 @@
-ro.hardware=redroid
-
 # disable ueventd cold-boot for performance
-ro.cold_boot_done=true
+# 要启用redroid关闭的冷启动，要使用ueventd枚举字符设备
+# ro.cold_boot_done=true
 
 persist.sys.fuse=1
 
